@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "dd7a13f0-e701-4104-9b7c-9766d9272003",
+		"name": "firstCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36978383"
+	},
+	"item": [
+		{
+			"name": "firstGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/first?key=test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"first"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "firstPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/first?key=test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"first"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "firstdelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/first?key=test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"first"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "firstPut",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/first?key=test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"first"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

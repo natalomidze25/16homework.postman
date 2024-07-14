@@ -8,6 +8,9 @@ import java.security.Key;
 @RestController
 @RequestMapping("first")
 public class FirstController {
+
+    //todo პოსტმენის კოლექცია არის პროექტში, resources/firstCollection.postman_collection.json
+
     @GetMapping
     public String get(@RequestParam String key){
         return "get method sucssess, key =" + key;
